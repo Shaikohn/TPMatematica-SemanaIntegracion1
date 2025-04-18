@@ -1,12 +1,12 @@
 def validar_decimal(decimal):
     # Validación de entrada (del número debe ser un número decimal positivo)
-    try:
+    if str(decimal).isdigit():
         decimal = int(decimal)
         if decimal < 0:
-            return "Error: Ingresa un número decimal positivo."
+            return "Error: Ingresa un número entero positivo."
         return decimal
-    except ValueError:
-        return "Error: Entrada no válida. Ingresa un número entero decimal."
+    else:
+        return "Error: Entrada no válida. Ingresa un número entero positivo."
     
 def validar_binario(binario):
     # Validación de entrada (el número solo debe contener 0s y 1s)

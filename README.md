@@ -35,11 +35,26 @@ Este es un programa de consola en Python que permite convertir números entre lo
 - Esta versión del programa **solo soporta números enteros positivos**.
 - No se permite el uso de fracciones ni números negativos.
 
-## 🧑‍💻 Autor
+## 🧠 Uso de la IA
 
-Desarrollado por Gabriela Machin – ¡Gracias por usar este conversor!
+Durante el desarrollo de este proyecto, se utilizó inteligencia artificial como herramienta de asistencia para:
+
+- Redacción y corrección del código en Python.
+- Generación de mensajes de error claros y comprensibles.
+- Mejora de la redacción en el README y documentación del proyecto.
+
+### 📸 Documentación del proceso con IA:
+
+![Mejora con IA - Parte 1](./img/Mejora%20ia_1.png)  
+*Validación original con sugerencias para evitar la impresión del cero innecesario.*
+
+![Mejora con IA - Parte 2](./img/Mejora%20ia_2.png)  
+*Implementación de una mejor validación con funciones y `exit()` o `return`.*
+
+## 🧑‍💻 Autores
+
+Desarrollado por Lautaro Lucero, Shai Kohn y Gabriela Machin – ¡Gracias por usar este conversor!
 
 ---
 
 Happy coding! ⚙️
-
